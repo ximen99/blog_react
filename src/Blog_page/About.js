@@ -8,17 +8,17 @@ function About() {
   return (
     <MainCententLayout>
       <div className="shadow-lg shadow-stone-600 bg-stone-700 text-ellipsis overflow-hidden ">
-        <div className="flex flex-row py-6 ">
+        <div className="flex flex-row py-6 align-middle">
           <img
             src={`${process.env.PUBLIC_URL}/image/profile.jpeg`}
             alt="profile"
-            className="w-60 rounded-full m-4"
+            className="hidden md:inline-block w-60 rounded-full ml-8"
           />
-          <div className="flex flex-col grow py-12">
+          <div className="flex flex-col grow m-auto">
             <h3 className="text-4xl font-semibold py-3 flex justify-center">
               Cheng Ximen
             </h3>
-            <ul className="flex justify-around py-10 px-3">
+            <ul className="flex flex-wrap justify-around py-5 md:pt-10 px-3 md:flex-row">
               <li>
                 <i className="fa-solid fa-location-dot text-sky-600" />{" "}
                 Vancouver, BC
