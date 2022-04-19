@@ -4,7 +4,15 @@ import Footer from "./Footer";
 
 function BlogLayout() {
   return (
-    <div className="min-w-full min-h-screen text-white text-lg relative flex-col align-middle bg-zinc-300">
+    <div
+      className="min-w-full min-h-screen text-white text-lg relative flex-col align-middle"
+      style={{
+        backgroundImage: `url(${
+          process.env.PUBLIC_URL + "/image/background.svg"
+        })`,
+        backgroundSize: "cover",
+      }}
+    >
       <header className="bg-black py-5 sticky top-0 left-0 right-0 flex justify-center">
         <nav className="flex justify-between items-center w-10/12 ">
           <Link to="./blog">
