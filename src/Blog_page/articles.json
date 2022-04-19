@@ -1,0 +1,50 @@
+[
+  {
+    "title": "When Machine Learning Meets Cuisine",
+    "digest": "Experimenting Text Based Feature Engineering on Kaggle \"What's Cooking\" dataset",
+    "filename": "cuisine",
+    "author": "Cheng Ximen",
+    "date": "May 18, 2020",
+    "thumbnail": "food"
+  },
+  {
+    "title": "Canada Covid 19 Visualization and Modeling",
+    "digest": "Using SEIR to model Canada Covid 19 data",
+    "filename": "covid",
+    "author": "Cheng Ximen",
+    "date": "April 26, 2020",
+    "thumbnail": "covid"
+  },
+  {
+    "title": "Deep Dive into Canada's GDP",
+    "digest": "An exploratory data analysis of Canada GDP dataset",
+    "filename": "GDP",
+    "author": "Cheng Ximen",
+    "date": "April 15, 2020",
+    "thumbnail": "gdp"
+  },
+  {
+    "title": "Understanding Overfitting Problem Through Simulation",
+    "digest": "Using monte carlo simulation to gain a better understanding of what overfitting means and where does it come from",
+    "filename": "Overfitting",
+    "author": "Cheng Ximen",
+    "date": "April 10, 2020",
+    "thumbnail": "simulation"
+  },
+  {
+    "title": "HMM Based Market Condition Model",
+    "digest": "Using clustering and HMM to deduce the market condition on each price point",
+    "filename": "HMM",
+    "author": "Cheng Ximen",
+    "date": "March 8, 2020",
+    "thumbnail": "hmm"
+  },
+  {
+    "title": "Design a Price Trend Indicator",
+    "digest": "Using normalized slope of regression based on recent periods of high and low to construct a new trend indicator",
+    "filename": "Price_trend",
+    "author": "Cheng Ximen",
+    "date": "February 15, 2020",
+    "thumbnail": "stock"
+  }
+]
