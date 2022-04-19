@@ -8,6 +8,7 @@ function Article() {
     <MainCententLayout>
       <iframe
         src={`${process.env.PUBLIC_URL}/articles/${articleHtml}.html`}
+        title="article"
         className="w-full min-h-[85vh]"
       />
     </MainCententLayout>

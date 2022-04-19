@@ -1,5 +1,4 @@
 import MainCententLayout from "Blog_page/MainCententLayout";
-import { Link } from "react-router-dom";
 
 function About() {
   const handleEmailClick = (e) => {
