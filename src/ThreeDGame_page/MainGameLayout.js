@@ -9,14 +9,16 @@ import { useSnapshot } from "valtio";
 import state from "ThreeDGame_page/appState";
 import GamestartOverlay from "ThreeDGame_page/GamestartOverlay";
 import ResetComponents from "ThreeDGame_page/ResetComponents";
+import ScorePageOverlay from "ThreeDGame_page/ScorePageOverlay";
+import Scoretracker from "ThreeDGame_page/Scoretracker";
 
 function MainGameLayout() {
-  let driveSpeed = 2;
   const snap = useSnapshot(state);
 
   return (
     <div className="h-screen w-screen relative">
       <Canvas>
+        <Scoretracker />
         <Camera />
         <Sky distance={5000} sunPosition={[-4, 0.5, -1]} rayleigh={0.3} />
         <Floor />
@@ -41,9 +43,10 @@ function MainGameLayout() {
           depth={0.2}
           segments={100}
         />
-        <ResetComponents speed={driveSpeed} />
+        <ResetComponents />
       </Canvas>
-      {!!snap.gameStart || <GamestartOverlay />}
+      <ScorePageOverlay />
+      {snap.gameStart || <GamestartOverlay />}
       <Loader />
     </div>
   );

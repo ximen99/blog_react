@@ -5,6 +5,7 @@ function GamestartOverlay() {
   const handleClick = () => {
     state.gameStart = true;
     state.gameStartPrevious = false;
+    state.speed = 2;
   };
   return (
     <div className="absolute top-0 left-0 w-screen h-screen bg-teal-600 bg-opacity-60 flex justify-center">

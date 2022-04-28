@@ -25,7 +25,7 @@ export default function Model({ ...props }) {
     const MAX_ANGLE = Math.PI / 7;
     const BASE_ANGLE = Math.PI;
     const MAX_DISTANCE = 28;
-    const SPEED = 1;
+    const SPEED = 1 + (snap.speed - 1) * 0.1;
 
     let sign;
 
