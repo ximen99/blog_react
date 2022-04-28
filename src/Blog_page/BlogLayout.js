@@ -26,6 +26,9 @@ function BlogLayout() {
               <Link to="./blog">Blog</Link>
             </NavTitle>
             <NavTitle>
+              <Link to="./cargame">Game</Link>
+            </NavTitle>
+            <NavTitle>
               <Link to="./About">About</Link>
             </NavTitle>
           </ul>

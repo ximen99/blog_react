@@ -6,17 +6,23 @@ Road by Poly by Google [CC-BY], via Poly Pizza
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
+import state from "ThreeDGame_page/appState";
+import { useSnapshot } from "valtio";
 
 export default function Model({ speed, ...props }) {
   const road = useRef();
   const { nodes, materials } = useGLTF("/game/Road.glb");
-  useFrame((state, delta) => {
+  const snap = useSnapshot(state);
+
+  useFrame(() => {
+    if (!snap.gameStart) return null;
     if (road.current.position.z <= 550) {
       road.current.position.z += speed * 0.7;
     } else {
       road.current.position.z = -1445;
     }
   });
+
   return (
     <group
       receiveShadow

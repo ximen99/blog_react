@@ -14,13 +14,13 @@ const root = createRoot(document.getElementById("root"));
 root.render(
   <Router>
     <Routes>
-      {/* <Route path="/" element={<BlogLayout />}>
+      <Route path="/" element={<BlogLayout />}>
         <Route exact path="/blog" element={<Blog />} />
         <Route path="/About" element={<About />} />
         <Route path="blog/:articleHtml" element={<Article />} />
         <Route index element={<Blog />} />
-      </Route> */}
-      <Route path="/" element={<MainGameLayout />} />
+      </Route>
+      <Route path="/cargame" element={<MainGameLayout />} />
     </Routes>
   </Router>
 );

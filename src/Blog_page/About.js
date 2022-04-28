@@ -74,8 +74,10 @@ function About() {
           This site is just a fun project for me to put what I've learned to use
           and showcase my work. It's done in React and formatted with Tailwind
           css. The blog section is some of the data science projects I did when
-          I first landed in Vancouver, settling down and job searching.
-          Hopefully I can add some fun web app to the site later on.
+          I first landed in Vancouver, settling down and job searching. The game
+          section is a simple car game I developed based on an old 2D mobile
+          game i used to play in school. I thought it might be fun to recreate a
+          3D version with React-Three-Fiber.
         </p>
       </div>
     </MainCententLayout>
