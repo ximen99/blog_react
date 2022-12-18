@@ -33,11 +33,11 @@ function About() {
                 ximen100@gmail.com
               </li>
 
-              <li>
+              {/* <li>
                 <a href={`${process.env.PUBLIC_URL}/resume.pdf`} download>
                   <i className="fa-solid fa-file-lines text-sky-600" /> resume
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -48,10 +48,8 @@ function About() {
           process itself!
           <br />
           <br />
-          I'm currently working as a financial analyst at ACC360, mainly
-          covering the merchandising side data analysis. I use python, SQL and
-          VBA for the ETL and modeling process; DAX and PowerBI for
-          visualization.
+          I'm currently working as a Risk Reporting Associate at BCI. Feel free
+          to check out my linked in profile for more details.
         </p>
       </div>
       <div className="my-10 shadow-lg shadow-stone-600 bg-stone-700">
